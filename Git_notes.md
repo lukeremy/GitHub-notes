@@ -61,9 +61,17 @@ $ git add .
 
 $ git status
 
-*12. Commit files, adding argument with -m "text":*
+*12. Commit files:*
 
-$ git commit -m "edit readme and added new"
+     *Option A, using insert mode:*
+
+     $ git commit (this will open a new window)
+     type your comment at the top of the new window
+     hit ESC, then ":wq" in the field below
+     
+     *Option B, adding argument with -m "text":*
+
+     $ git commit -m "edit readme and added new"
 
 *13. Now that commit is complete, re-check status to confirm there is nothing left to commit:*
 
